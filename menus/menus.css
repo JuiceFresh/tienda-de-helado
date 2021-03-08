@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans';
+}
+
+#header{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 70px;
+    background-color:blue;
+    padding: 0px 10px;
+    z-index: 1;
+}
+.logo img{
+    padding-left: 5px;
+    margin: 0;
+    float: left;
+}
+.nav-menu{
+    background-color:blue;
+    position: relative;
+    overflow: hidden;
+}
+.nav-menu a:hover{
+    color:yellow;
+    text-decoration: none;
+    transform: scale(1.3);
+}
+.nav-menu *{
+    margin: auto;
+    float: right;
+    background-color:blue;
+    list-style: none;
+    padding-right: 15px;
+    z-index: 2;
+}
+.nav-menu a{
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    padding: 20px 15px;
+}
+.nav-menu .icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .nav-menu a {display: none;}
+    .nav-menu a.icon{
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    .nav-menu.responsive {position: relative;}
+    .nav-menu.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.imagen-1 img{
+    width: 30%;
+    border-radius: 90px;
+    /* border-radius: 800px; */
+    margin-top: 100px;
+    display:block;
+    margin:auto;
+    margin-top: 100px;
+}
+.imagen-1.d img{
+    border-radius: 0;
+}
+@media screen and (max-width: 858px){
+    .imagen-1 img{
+        width: 70%;
+        border-radius: 50px;
+    }
+}
+
+.explorar{
+    background:#333;
+    color:#6441a5;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #6441a5;
+    /* transition: 10s; */
+    border-radius: 11px;
+}
+.explorar:hover{
+    transform: translateY(-3px) scale(1.05);
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+
+
+  

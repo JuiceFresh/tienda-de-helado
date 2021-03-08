@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sabores</title>
+    <link rel="icon" href="../img/Brand.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="../img/brand.png" alt="logo de la empresa">
+            </div>
+            <div class="nav-menu" id="myTopnav">
+                <a href="/index.html">Inicio</a>
+                <a href="../menus/nosotros.html">Nosotros</a>
+                <a href="../menus/servicio.html">Servicio</a>
+                <a href="../menus/contacto.html">Contacto</a>
+                <a href="../menus/sabores.html">Sabores</a>
+                <a href="javascript:void(0);" class="icon" onclick="Functionmenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl 50 col-lg 60 col-md 100">
+                <div class="btnGroup">
+                    <li>
+                        <ul><button onclick='in1()' type="button" class="btn btn-primary">Helado de fresa</button></ul>
+                        <ul><button onclick='in2()' type="button" class="btn btn-secondary">Helado de chocolate</button></ul>
+                        <ul><button onclick='in3()' type="button" class="btn btn-success">Helado de vainilla</button></ul>
+                        <ul><button onclick='in4()' type="button" class="btn btn-info">Helado de dulce de leche </button></ul>
+                        <ul><button onclick='in5()' type="button" class="btn btn-warning">Helado de frutilla</button></ul>
+                        <ul><button onclick='in6()' type="button" class="btn btn-danger">Helado de chicle</button></ul>
+                        <ul><button onclick='in7()' type="button" class="btn btn-dark">Helado de melocoton</button></ul>
+                        <ul><button onclick='in8()' type="button" class="btn btn-primary">Helado de capuchino</button></ul>
+                        <ul><button onclick='in9()' type="button" class="btn btn-secondary">Helado de brownie</button></ul>
+                        <ul><button onclick='in10()' type="button" class="btn btn-success">Helado crema de oreo</button></ul>
+                        <ul><button onclick='in11()' type="button" class="btn btn-info">Helado de mora</button></ul>
+                        <ul><button onclick='in12()' type="button" class="btn btn-warning">Helado de coco</button></ul>
+                        <ul><button onclick='in13()' type="button" class="btn btn-danger">Helado de nueces</button></ul>
+                        <ul><button onclick='in14()' type="button" class="btn btn-dark">Helado de frambuesa</button></ul>
+                        <ul><button onclick='in15()' type="button" class="btn btn-primary">Helado de pistacho</button></ul>
+                    </li>
+                </div>
+            </div>
+            <div class="contenido">
+                <iframe style="display:none" id="frame" width="870" height="700" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+    <script src="../js/funciones.js"></script>
+</body>
+</html>
